@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Utility",
+  "version": "1.0.0",
+  "description": "Utility for your tabs",
+  "permissions": ["tabs",{"fileSystem": ["write", "retainEntries", "directory"]}],
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "128": "icon.png"
+    }
+  },
+  "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js; object-src 'self'"
+
+}
