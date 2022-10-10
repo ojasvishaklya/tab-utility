@@ -1,9 +1,10 @@
 ## Tab Utility Chrome Extension
 This app is used to create a pdf with urls of all the tabs opened in the window. <br><br>
-<li> The code will take all the urls of the tabs opened, sort it alphabetically, trim the length, if required and add it to the PDF. 
+<li> The code will take all the urls of the tabs opened, trim the length, if required and add it to the PDF. 
 <li> The PDF will contain at max of 27 tab urls. If the number exceeds, a new pdf page is added to the file.
-<li> We can use this feature by selecting the get tabs checkbox.
-<li> We can also just sort the tabs by alphabetical order by selecting the sort tabs checkbox in the extension. 
+<li> We can use the above feature by selecting the get tabs checkbox.
+<li> Further, we can sort the tabs by alphabetical order by selecting the sort tabs checkbox in the extension. 
+<li> We can also select both the checkboxs to get the urls in the pdf alphabetically.
 
 <br>
  
